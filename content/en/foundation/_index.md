@@ -5,7 +5,7 @@ description: Hugo's features, roadmap, license, and motivation.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
-categories: []
+categories: [component_overview]
 keywords: []
 menu:
   components:
