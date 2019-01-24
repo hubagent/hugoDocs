@@ -37,24 +37,36 @@
   identifier = "functions"
   url = "/functions/"
 
-# [[docs]]
-#   name = "Variables"
-#   weight = 35
-#   identifier = "variables"
-#   url = "/variables/"
-# [[docs]]
-#   name = "Hugo Pipes"
-#   weight = 36
-#   identifier = "pipes"
-#   url = "/hugo-pipes/"
-# [[docs]]
-#   name = "CLI"
-#   weight = 40
-#   post = "break"
-#   identifier = "commands"
-#   url = "/commands/"
+[[principles]]
+  name = "Principles overview"
+  weight = 1
+  identifier = "principles"
+  url = "/variables/"
 
+[[principles]]
+  name = "UX principles"
+  weight = 5
+  identifier = "pipes"
+  url = "/hugo-pipes/"
 
+[[principles]]
+  name = "UI principles"
+  weight = 10
+#  post = "break"
+  identifier = "commands"
+  url = "/commands/"
+
+[[principles]]
+  name = "Dev principles"
+  weight = 60
+  identifier = "troubleshooting"
+  url = "/troubleshooting/"
+
+[[principles]]
+  name = "Tags"
+  weight = 120
+  identifier = "tags"
+  url = "/tags/"
 
 # LOW LEVEL ITEMS
 

@@ -5,17 +5,18 @@ description: Page-, file-, taxonomy-, and site-level variables and parameters av
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
-categories: [variables and params]
+categories: ["principle_overview"]
 keywords: [variables,params,values,globals]
 draft: false
 menu:
-  docs:
+  principles:
     parent: "variables"
     weight: 1
 weight: 01	#rem
 sections_weight: 01
 aliases: [/templates/variables/]
 toc: false
+layout: principles-home
 ---
 
 Hugo's templates are context aware and make a large number of values available to you as you're creating views for your website.
