@@ -1,5 +1,5 @@
 ---
-title: About Hugo
+title: Foundation Overview
 linktitle: Overview
 description: Hugo's features, roadmap, license, and motivation.
 date: 2017-02-01
@@ -8,12 +8,12 @@ lastmod: 2017-02-01
 categories: []
 keywords: []
 menu:
-  docs:
-    parent: "about"
+  components:
+    parent: "foundation"
     weight: 1
 weight: 1
 draft: false
-aliases: [/about-hugo/,/docs/]
+aliases: []
 toc: false
 ---
 
