@@ -13,8 +13,8 @@ weight: 01	#rem
 draft: false
 slug:
 aliases: []
-toc: false
-layout: components-home
+toc: true
+layout: single
 ---
 Hugo is the **world's fastest static website engine.** It's written in Go (aka Golang) and developed by [bep](https://github.com/bep), [spf13](https://github.com/spf13) and [friends](https://github.com/gohugoio/hugo/graphs/contributors). 
 

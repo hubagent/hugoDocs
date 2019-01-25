@@ -1,3 +1,5 @@
+######## COMPONENTS MENU
+
 [[components]]
   name = "Foundation"
   weight = 1
@@ -37,11 +39,10 @@
   identifier = "functions"
   url = "/functions/"
 
-[[principles]]
-  name = "Principles overview"
-  weight = 1
-  identifier = "principles"
-  url = "/variables/"
+
+
+
+######## PRINCIPLES MENU
 
 [[principles]]
   name = "UX principles"
@@ -58,18 +59,12 @@
 
 [[principles]]
   name = "Dev principles"
-  weight = 60
+  weight = 30
   identifier = "troubleshooting"
   url = "/troubleshooting/"
 
-[[principles]]
-  name = "Tags"
-  weight = 120
-  identifier = "tags"
-  url = "/tags/"
 
 # LOW LEVEL ITEMS
-
 
 # [[docs]]
 #   name = "Troubleshooting"
@@ -101,7 +96,7 @@
 
 
 
-######## GLOBAL ITEMS TO BE SHARED WITH THE HUGO SITES
+######## PRIMARY NAV
 
   [[global]]
     name = "Principles"
