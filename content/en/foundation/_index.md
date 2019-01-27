@@ -1,16 +1,17 @@
 ---
-title: Foundation Elements
+title: "FD: Foundation"
 linktitle: Foundation
 description: Hugo boasts blistering speed, robust content management, and a powerful templating language making it a great fit for all kinds of static websites.
 date: 2017-02-01
 publishdate: 2017-02-01
 lastmod: 2017-02-01
+categories: [components]
 menu:
   docs:
     parent: "foundation"
-    weight: 20
-weight: 20
-sections_weight: 20
+    weight: 5
+weight: 5
+sections_weight: 5
 draft: false
 toc: true
 layout: "single"

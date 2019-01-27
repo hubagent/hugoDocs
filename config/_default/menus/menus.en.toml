@@ -1,40 +1,40 @@
 ######## COMPONENTS MENU
 
 [[components]]
-  name = "Foundation"
+  name = "FD: Foundation"
   weight = 1
   identifier = "foundation"
   url = "/foundation/"
 
 [[components]]
-  name = "Content text"
+  name = "CT: Content text"
   weight = 5
   identifier = "getting-started"
   url = "/getting-started/"
 
 [[components]]
-  name = "Buttons and links"
+  name = "BL: Buttons and links"
   weight = 15
   identifier = "themes"
 #  post = "break"
   url = "/themes/"
 
 [[components]]
-  name = "Form elements"
+  name = "FE: Form elements"
   weight = 20
   identifier = "content-management"
   post = "expanded"
   url = "/content-management/"
 
 [[components]]
-  name = "Icons"
+  name = "IC: Icons"
   weight = 25
   identifier = "templates"
 
   url = "/templates/"
 
 [[components]]
-  name = "Miscellaneous"
+  name = "MS: Miscellaneous"
   weight = 30
   identifier = "functions"
   url = "/functions/"

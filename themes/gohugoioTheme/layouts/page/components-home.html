@@ -1,4 +1,4 @@
 {{ define "main" }}
-{{ $section_to_display := (.Site.Taxonomies.categories.component_overview).Pages | lang.Merge (.Sites.First.Taxonomies.categories.component_overview).Pages }}
+{{ $section_to_display := (.Site.Taxonomies.categories.components).Pages | lang.Merge (.Sites.First.Taxonomies.categories.components).Pages }}
   {{ partial "partials-component/pagelayout-components.html" (dict "context" . "section_to_display" $section_to_display ) }}
 {{ end }}
