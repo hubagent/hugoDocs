@@ -1821,11 +1821,6 @@ img { max-width: 100%; }
   margin-left: 0;
   list-style-type: none;
 }
-.nested-img img {
-  width: 100%;
-  max-width: 100%;
-  display: block;
-}
 .nested-links a {
   color: #0594CB;
   -webkit-transition: color .15s ease-in;
