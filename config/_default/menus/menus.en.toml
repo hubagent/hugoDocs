@@ -102,19 +102,19 @@
     name = "Principles"
     weight = 5
     identifier = "principles"
-    url = "/principles/"
+    url = "/principles"
 
   [[global]]
     name = "Components"
     weight = 10
     identifier = "components"
-    url = "/components/"
+    url = "/components"
 
   [[global]]
     name = "Documentation"
     weight = 15
     identifier = "documentation"
-    url = "/documentation/"
+    url = "/documentation"
 
   # Anything with a weight > 100 gets an external icon
   #   [[global]]

@@ -7,8 +7,8 @@ publishdate: 2017-02-01
 lastmod: 2017-02-01
 categories: [components]
 menu:
-  docs:
-    parent: "foundation"
+  global:
+    parent: "components"
     weight: 5
 weight: 5
 sections_weight: 5

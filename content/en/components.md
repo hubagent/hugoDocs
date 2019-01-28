@@ -20,19 +20,19 @@ All the nuts and bolts of the npower Design System and how they fit into each ot
 
 The design system is comprised of:
 
-## Foundation
+#### Foundation
 
 Background colours and styles etc.
 
-## Atoms
+#### Atoms
 
 Smallest building blocks to make up the other components. Doesn't make sense to make them any smaller.
 
-## Molecules
+#### Molecules
 
 More complex components consisting of atoms and other molecules.
 
-## Organisms
+#### Organisms
 
 The most complex of components. How do you know if something is an molecule or an organism? It's an organism if it only ever appears in a view once - like a header, for example.
 

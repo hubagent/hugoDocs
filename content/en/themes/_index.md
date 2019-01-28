@@ -8,8 +8,8 @@ lastmod: 2017-02-01
 keywords: [usage,docs]
 categories: [components]
 menu:
-  docs:
-    parent: "themes"
+  global:
+    parent: "components"
     weight: 15
 weight: 15
 sections_weight: 15
@@ -17,7 +17,7 @@ keywords: [themes,introduction,overview]
 draft: false
 aliases: [/themes/overview/]
 toc: true
-layout: single
+layout: "single"
 ---
 
 ## Buttons: General
