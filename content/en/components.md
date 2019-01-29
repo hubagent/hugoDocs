@@ -16,23 +16,22 @@ aliases: []
 toc: false
 layout: components-home
 ---
-All the nuts and bolts of the npower Design System and how they fit into each other.
+Find below a definition of the npower Design System components and how they all fit together.
 
 The design system is comprised of:
 
 #### Foundation styles
 
-Background colours and styles etc.
+Foundation colours, shadow, curvature, transition times etc. - elements common across the entire system.
 
-#### Elements
+#### Atoms
 
-Smallest building blocks to make up the other components. Doesn't make sense to make them any smaller.
+Atoms are the smallest building blocks of the system. They make sense on their own and you couldn't sensibly break them down any further - for example a primary button.
 
-#### Modules
+#### Molecules
 
-More complex components consisting of atoms and other molecules.
+Molecules are more complex components consisting of atoms and potentially other molecules - for an example an address picker.
 
-#### Stacks
+#### Organism
 
-The most complex of components. How do you know if something is an molecule or an organism? It's an organism if it only ever appears in a view once - like a header, for example.
-
+Organisms are the most complex components fo all. How do you know if something is an molecule or an organism? Molecules can appear more than once on a view. If it wouldn't make sense for the compoment to appear more than once (e.g. a header or a help and support section, then it's an organism).
