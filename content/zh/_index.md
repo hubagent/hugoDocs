@@ -8,7 +8,7 @@ features:
     copy: Hugo is the fastest tool of its kind. At <1 ms per page, the average site builds in less than a second.
 
   - heading: Robust Content Management
-    image_path: /images/icon-content-management.svg
+    image_path: /images/icon-form-elements.svg
     tagline: Flexibility rules. Hugo is a content strategist's dream.
     copy: Hugo supports unlimited content types, taxonomies, menus, dynamic API-driven content, and more, all without plugins.
 

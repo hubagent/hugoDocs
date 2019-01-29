@@ -44,4 +44,4 @@ The Hugo community uses a wide range of preferred tools and has developed plug-i
 * [Hugofy](https://atom.io/packages/hugofy). A Hugo Static Website Generator package for Atom.
 * [language-hugo](https://atom.io/packages/language-hugo). Adds syntax highlighting to Hugo files.
 
-[formats]: /content-management/formats/
+[formats]: /form-elements/formats/

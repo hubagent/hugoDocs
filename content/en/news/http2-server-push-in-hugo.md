@@ -75,5 +75,5 @@ Add `layouts/index.redir`:
 {{ end -}}
 {{- end -}}
 ```
-The template above creates 301 redirects for your [aliases](/content-management/urls/#aliases), so you will probably want to turn off aliases in your `config.toml`: `disableAliases = true`.
+The template above creates 301 redirects for your [aliases](/form-elements/urls/#aliases), so you will probably want to turn off aliases in your `config.toml`: `disableAliases = true`.
 

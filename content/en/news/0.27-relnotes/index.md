@@ -23,7 +23,7 @@ Hugo `0.27`comes with fast and flexible **Related Content** ([3b4f17bb](https://
 {{ end }}
 ```
 
-The above translates to _list the five regular pages mostly related to the current page_. See the [Related Content Documentation](https://gohugo.io/content-management/related/) for details and configuration options.
+The above translates to _list the five regular pages mostly related to the current page_. See the [Related Content Documentation](https://gohugo.io/form-elements/related/) for details and configuration options.
 
 This release represents **37 contributions by 9 contributors** to the main Hugo code base.
 

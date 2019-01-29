@@ -22,7 +22,7 @@ toc: true
 The following is a list of page-level variables. Many of these will be defined in the front matter, derived from file location, or extracted from the content itself.
 
 {{% note "`.Scratch`" %}}
-See [`.Scratch`](/functions/scratch/) for page-scoped, writable variables.
+See [`.Scratch`](/miscellaneous/scratch/) for page-scoped, writable variables.
 {{% /note %}}
 
 ## Page Variables
@@ -103,14 +103,14 @@ See also `.ExpiryDate`, `.Date`, `.PublishDate`, and [`.GitInfo`][gitinfo].
 : Pointer to the next [regular page](/variables/site/#site-pages) within the same section. Pages are sorted by Hugo's [default sort](/templates/lists#default-weight-date-linktitle-filepath). Example: `{{if .NextInSection}}{{.NextInSection.Permalink}}{{end}}`.
 
 .OutputFormats
-: contains all formats, including the current format, for a given page. Can be combined the with [`.Get` function](/functions/get/) to grab a specific format. (See [Output Formats](/templates/output-formats/).)
+: contains all formats, including the current format, for a given page. Can be combined the with [`.Get` function](/miscellaneous/get/) to grab a specific format. (See [Output Formats](/templates/output-formats/).)
 
 .Pages
 : a collection of associated pages. This value will be `nil` within
   the context of regular content pages. See [`.Pages`](#pages).
 
 .Permalink
-: the Permanent link for this page; see [Permalinks](/content-management/urls/)
+: the Permanent link for this page; see [Permalinks](/form-elements/urls/)
 
 .Plain
 : the Page content stripped of HTML tags and presented as a string.
@@ -141,14 +141,14 @@ http://remarkjs.com)
 : the estimated time, in minutes, it takes to read the content.
 
 .Ref
-: returns the permalink for a given reference (e.g., `.Ref "sample.md"`).  `.Ref` does *not* handle in-page fragments correctly. See [Cross References](/content-management/cross-references/).
+: returns the permalink for a given reference (e.g., `.Ref "sample.md"`).  `.Ref` does *not* handle in-page fragments correctly. See [Cross References](/form-elements/cross-references/).
 
 .RelPermalink
 : the relative permanent link for this page.
 
 .RelRef
 : returns the relative permalink for a given reference (e.g., `RelRef
-"sample.md"`). `.RelRef` does *not* handle in-page fragments correctly. See [Cross References](/content-management/cross-references/).
+"sample.md"`). `.RelRef` does *not* handle in-page fragments correctly. See [Cross References](/form-elements/cross-references/).
 
 .Site
 : see [Site Variables](/variables/site/).
@@ -160,22 +160,22 @@ http://remarkjs.com)
 : returns the site for the first language. If this is not a multilingual setup, it will return itself.
 
 .Summary
-: a generated summary of the content for easily showing a snippet in a summary view. The breakpoint can be set manually by inserting <code>&lt;!&#x2d;&#x2d;more&#x2d;&#x2d;&gt;</code> at the appropriate place in the content page. See [Content Summaries](/content-management/summaries/) for more details.
+: a generated summary of the content for easily showing a snippet in a summary view. The breakpoint can be set manually by inserting <code>&lt;!&#x2d;&#x2d;more&#x2d;&#x2d;&gt;</code> at the appropriate place in the content page. See [Content Summaries](/form-elements/summaries/) for more details.
 
 .TableOfContents
-: the rendered [table of contents](/content-management/toc/) for the page.
+: the rendered [table of contents](/form-elements/toc/) for the page.
 
 .Title
 : the title for this page.
 
 .Translations
-: a list of translated versions of the current page. See [Multilingual Mode](/content-management/multilingual/) for more information.
+: a list of translated versions of the current page. See [Multilingual Mode](/form-elements/multilingual/) for more information.
 
 .Truncated
-: a boolean, `true` if the `.Summary` is truncated. Useful for showing a "Read more..." link only when necessary.  See [Summaries](/content-management/summaries/) for more information.
+: a boolean, `true` if the `.Summary` is truncated. Useful for showing a "Read more..." link only when necessary.  See [Summaries](/form-elements/summaries/) for more information.
 
 .Type
-: the [content type](/content-management/types/) of the content (e.g., `posts`).
+: the [content type](/form-elements/types/) of the content (e.g., `posts`).
 
 .UniqueID
 : the MD5-checksum of the content file's path.
@@ -188,7 +188,7 @@ http://remarkjs.com)
 
 ## Section Variables and Methods
 
-Also see [Sections](/content-management/sections/).
+Also see [Sections](/form-elements/sections/).
 
 {{< readfile file="/content/en/readfiles/sectionvars.md" markdown="true" >}}
 
@@ -242,7 +242,7 @@ Two common situations where this type of front matter field could be introduced 
 <p>It was recommended by {{ .Params.recommendedby }}.</p>
 {{< /code >}}
 
-This template would render as follows, assuming you've set [`uglyURLs`](/content-management/urls/) to `false` in your [site `config`](/getting-started/configuration/):
+This template would render as follows, assuming you've set [`uglyURLs`](/form-elements/urls/) to `false` in your [site `config`](/getting-started/configuration/):
 
 {{< output file="yourbaseurl/review/book01/index.html" >}}
 <h3><a href="http://www.my-book-link.here">Buy this book</a></h3>
@@ -250,7 +250,7 @@ This template would render as follows, assuming you've set [`uglyURLs`](/content
 {{< /output >}}
 
 {{% note %}}
-See [Archetypes](/content-management/archetypes/) for consistency of `Params` across pieces of content.
+See [Archetypes](/form-elements/archetypes/) for consistency of `Params` across pieces of content.
 {{% /note %}}
 
 ### The `.Param` Method

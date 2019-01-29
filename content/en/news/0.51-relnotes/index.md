@@ -6,7 +6,7 @@ description: "Bug fixes, new template functions and more error improvements."
 categories: ["Releases"]
 ---
 
-Hugo reached [30 000 stars on GitHub](https://github.com/gohugoio/hugo/stargazers) this week, which is a good occasion to do a follow-up release of the great Hugo `0.50`. This is mostly a bug fix release, but it also adds some useful new functionality, two examples are the new template funcs [complement](https://gohugo.io/functions/complement/) and [symdiff](https://gohugo.io/functions/symdiff/). This release also continues the work on improving Hugo's error messages. And with `.Position` now available on shortcodes, you can also improve your own error messages inside your custom shortcodes:
+Hugo reached [30 000 stars on GitHub](https://github.com/gohugoio/hugo/stargazers) this week, which is a good occasion to do a follow-up release of the great Hugo `0.50`. This is mostly a bug fix release, but it also adds some useful new functionality, two examples are the new template funcs [complement](https://gohugo.io/miscellaneous/complement/) and [symdiff](https://gohugo.io/miscellaneous/symdiff/). This release also continues the work on improving Hugo's error messages. And with `.Position` now available on shortcodes, you can also improve your own error messages inside your custom shortcodes:
 
 
 ```bash

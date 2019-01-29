@@ -53,7 +53,7 @@ The following is a list of site-level (aka "global") variables. Many of these va
 : reference to the homepage's [page object](https://gohugo.io/variables/page/)
 
 .Site.IsMultiLingual
-: whether there are more than one language in this site. See [Multilingual](/content-management/multilingual/) for more information.
+: whether there are more than one language in this site. See [Multilingual](/form-elements/multilingual/) for more information.
 
 .Site.IsServer
 : a boolean to indicate if the site is being served with Hugo's built-in server. See [`hugo server`](/commands/hugo_server/) for more information.
@@ -74,13 +74,13 @@ The following is a list of site-level (aka "global") variables. Many of these va
 : a string representing the language as defined in the site configuration. This is mostly used to populate the RSS feeds with the right language code.
 
 .Site.LanguagePrefix
-: this can be used to prefix URLs to point to the correct language. It will even work when only one defined language. See also the functions [absLangURL](/functions/abslangurl/) and [relLangURL](/functions/rellangurl).
+: this can be used to prefix URLs to point to the correct language. It will even work when only one defined language. See also the functions [absLangURL](/miscellaneous/abslangurl/) and [relLangURL](/miscellaneous/rellangurl).
 
 .Site.Languages
 : an ordered list (ordered by defined weight) of languages.
 
 .Site.LastChange
-: a string representing the date/time of the most recent change to your site. This string is based on the [`date` variable in the front matter](/content-management/front-matter) of your content pages.
+: a string representing the date/time of the most recent change to your site. This string is based on the [`date` variable in the front matter](/form-elements/front-matter) of your content pages.
 
 .Site.Menus
 : all of the menus in the site.
@@ -89,7 +89,7 @@ The following is a list of site-level (aka "global") variables. Many of these va
 : array of all content ordered by Date with the newest first. This array contains only the pages in the current language. See [`.Site.Pages`](#site-pages).
 
 .Site.Permalinks
-: a string to override the default [permalink](/content-management/urls/) format as defined in the site configuration.
+: a string to override the default [permalink](/form-elements/urls/) format as defined in the site configuration.
 
 .Site.RegularPages
 : a shortcut to the *regular* page collection. `.Site.RegularPages` is equivalent to `where .Site.Pages "Kind" "page"`. See [`.Site.Pages`](#site-pages).

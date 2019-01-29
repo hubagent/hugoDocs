@@ -41,8 +41,8 @@ toc: false
 .Inner
 : represents the content between the opening and closing shortcode tags when a [closing shortcode][markdownshortcode] is used
 
-[getfunction]: /functions/get/
-[markdownshortcode]: /content-management/shortcodes/#shortcodes-with-markdown
+[getfunction]: /miscellaneous/get/
+[markdownshortcode]: /form-elements/shortcodes/#shortcodes-with-markdown
 [shortcodes]: /templates/shortcode-templates/
 
 

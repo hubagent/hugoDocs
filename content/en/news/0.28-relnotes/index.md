@@ -14,7 +14,7 @@ Hugo has been caching the highlighter output to disk, so for repeated builds it 
 
 {{< asciicast Lc5iwTVny2kuUC8lqvNnL6oDU >}}
 
-See the [Updated Documentation](https://gohugo.io/content-management/syntax-highlighting/) for more information about how this works.
+See the [Updated Documentation](https://gohugo.io/form-elements/syntax-highlighting/) for more information about how this works.
 
 Worth mentioning is also the `liveReloadPort`  flag on `hugo server`, which makes it possible to do "live reloads" behind a HTTPS proxy, which makes for very cool remote customer demos.
 

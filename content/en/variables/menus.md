@@ -84,7 +84,7 @@ entries, if any, under the current menu entry.
 
 Menus also have the following functions available:
 
-[.HasChildren](/functions/haschildren/)
+[.HasChildren](/miscellaneous/haschildren/)
 : _boolean_ <br />
 Returns `true` if `.Children` is non-nil.
 
@@ -113,11 +113,11 @@ Additionally, here are some relevant methods available to menus on a page:
 
 .IsMenuCurrent
 : _(menu string, menuEntry *MenuEntry ) boolean_ <br />
-See [`.IsMenuCurrent` method](/functions/ismenucurrent/).
+See [`.IsMenuCurrent` method](/miscellaneous/ismenucurrent/).
 
 .HasMenuCurrent
 : _(menu string, menuEntry *MenuEntry) boolean_ <br />
-See [`.HasMenuCurrent` method](/functions/hasmenucurrent/).
+See [`.HasMenuCurrent` method](/miscellaneous/hasmenucurrent/).
 
 
 [menu-template]: /templates/menu-templates/

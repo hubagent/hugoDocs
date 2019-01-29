@@ -63,7 +63,7 @@ Here is a review of the front matter fields automatically generated for you usin
 : the function's actual casing (e.g., `replaceRE` rather than `replacere`).
 
 ***`description`***
-: a brief description used to populate the [Functions Quick Reference](/functions/).
+: a brief description used to populate the [Functions Quick Reference](/miscellaneous/).
 
 `categories`
 : currently auto-populated with 'functions` for future-proofing and portability reasons only; ignore this field.
@@ -322,12 +322,12 @@ Similar to [contributing to Hugo development](/contribute/development/), the Hug
 {{% /note %}}
 
 [abe]: https://en.wikipedia.org/wiki/Kobo_Abe
-[archetypes]: /content-management/archetypes/
+[archetypes]: /form-elements/archetypes/
 [bqsyntax]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#blockquotes
 [charcount]: http://www.lettercount.com/
 [`docs/static/images/showcase/`]: https://github.com/gohugoio/hugo/tree/master/docs/static/images/showcase/
 [ghforking]: https://help.github.com/articles/fork-a-repo/
 [hugodev]: /contribute/development/
-[shortcodeparams]: content-management/shortcodes/#shortcodes-without-markdown
+[shortcodeparams]: form-elements/shortcodes/#shortcodes-without-markdown
 [sourceforge]: http://docutils.sourceforge.net/docs/ref/rst/directives.html#admonitions
-[templating function]: /functions/
+[templating function]: /miscellaneous/

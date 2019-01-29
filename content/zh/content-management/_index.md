@@ -7,7 +7,7 @@ publishdate: 2018-04-23
 lastmod: 2018-04-23
 menu:
   docs:
-    parent: "content-management"
+    parent: "form-elements"
     weight: 1
 keywords: [source, organization]
 categories: [content management]

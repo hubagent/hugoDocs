@@ -67,7 +67,7 @@ Pages from "other data sources"
 Upgrade Blackfriday to v2
 : [Blackfriday](https://github.com/russross/blackfriday) is the main content renderer in Hugo. It has been rewritten to a more flexible architecture, which should allow us to fix some of the current shortcomings.
 
-We should be able to create a better and easier-to-use data structure from the rendered content: Summary, the content after the summary, being able to range over the footnotes and the ToC. Having ToC as a proper data structure also opens up a few other potential uses; using it as an index in [Related Content](https://gohugo.io/content-management/related/) would be one example.
+We should be able to create a better and easier-to-use data structure from the rendered content: Summary, the content after the summary, being able to range over the footnotes and the ToC. Having ToC as a proper data structure also opens up a few other potential uses; using it as an index in [Related Content](https://gohugo.io/form-elements/related/) would be one example.
 
 This should also enable us to _do more_ with [Custom Output Formats](/templates/output-formats). It is already very powerful. GettyPubs are using it in [Quire](https://github.com/gettypubs/quire) to build [beautiful multi-platform publications](http://www.getty.edu/publications/digital/digitalpubs.html). But it can be improved. For rendering of content files, you are currently restricted to HTML. It would be great if we could configure alternative renderers per output format, such as LaTeX and EPUB.
 

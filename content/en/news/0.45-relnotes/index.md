@@ -53,7 +53,7 @@ To make working with these reflinks on bigger sites easier to work with, we have
 * refLinksErrorLevel: ERROR (default, will fail the build when a reflink cannot be resolved) or WARNING.
 * refLinksNotFoundURL: Set this to an URL placeholder used when no reference could be resolved.
 
-Visit the [Hugo Docs](https://gohugo.io/content-management/cross-references) for more information.
+Visit the [Hugo Docs](https://gohugo.io/form-elements/cross-references) for more information.
 
 We have also done some important improvements and fixes in **Hugo Pipes** in this release: SCSS source maps on Windows now works, we now support project-local `PostCSS` installation, and we have added `IncludePaths` to `SCSS` options, making it possible to include, say, a path below `node_modules` in the SASS/SCSS build.
 

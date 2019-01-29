@@ -1,43 +1,42 @@
 ######## COMPONENTS MENU
 
 [[components]]
-  name = "FD: Foundation"
+  name = "Foundation styles (FS)"
   weight = 1
   identifier = "foundation"
   url = "/foundation/"
 
 [[components]]
-  name = "CT: Content text"
+  name = "Content text (CT)"
   weight = 5
-  identifier = "getting-started"
-  url = "/getting-started/"
+  identifier = "content text"
+  url = "/content-text/"
 
 [[components]]
-  name = "BL: Buttons and links"
+  name = "Buttons and links (BL)"
   weight = 15
-  identifier = "themes"
+  identifier = "buttons and links"
 #  post = "break"
-  url = "/themes/"
+  url = "/buttons-and-links/"
 
 [[components]]
-  name = "FE: Form elements"
+  name = "Form elements (FE)"
   weight = 20
-  identifier = "content-management"
+  identifier = "form elements"
   post = "expanded"
-  url = "/content-management/"
+  url = "/form-elements/"
 
 [[components]]
-  name = "IC: Icons"
+  name = "Icons (IC)"
   weight = 25
-  identifier = "templates"
-
-  url = "/templates/"
+  identifier = "icons"
+  url = "/icons/"
 
 [[components]]
-  name = "MS: Miscellaneous"
+  name = "Miscellaneous (MS)"
   weight = 30
-  identifier = "functions"
-  url = "/functions/"
+  identifier = "miscellaneous"
+  url = "/miscellaneous/"
 
 
 
@@ -102,19 +101,19 @@
     name = "Principles"
     weight = 5
     identifier = "principles"
-    url = "/principles"
+    url = "/principles/"
 
   [[global]]
     name = "Components"
     weight = 10
     identifier = "components"
-    url = "/components"
+    url = "/components/"
 
   [[global]]
     name = "Documentation"
     weight = 15
     identifier = "documentation"
-    url = "/documentation"
+    url = "/documentation/"
 
   # Anything with a weight > 100 gets an external icon
   #   [[global]]

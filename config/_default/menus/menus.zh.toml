@@ -25,9 +25,9 @@
 [[docs]]
   name = "内容管理"
   weight = 20
-  identifier = "content-management"
+  identifier = "form-elements"
   post = "expanded"
-  url = "/zh/content-management/"
+  url = "/zh/form-elements/"
 
 [[docs]]
   name = "模板"
@@ -39,7 +39,7 @@
   name = "函数"
   weight = 30
   identifier = "functions"
-  url = "/zh/functions/"
+  url = "/zh/miscellaneous/"
 
 [[docs]]
   name = "变量"

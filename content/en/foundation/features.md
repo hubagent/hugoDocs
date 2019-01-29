@@ -56,16 +56,16 @@ toc: true
 
 
 [Ace]: /templates/alternatives/
-[aliases]: /content-management/urls/#aliases
+[aliases]: /form-elements/urls/#aliases
 [Amber]: https://github.com/eknkc/amber
 [Chroma]: https://github.com/alecthomas/chroma
-[content summaries]: /content-management/summaries/
-[content types]: /content-management/types/
+[content summaries]: /form-elements/summaries/
+[content types]: /form-elements/types/
 [Disqus]: https://disqus.com/
 [Dynamic menu]: /templates/menus/
 [Extremely fast]: https://github.com/bep/hugo-benchmark
-[front matter]: /content-management/front-matter/
-[functions]: /functions/
+[front matter]: /form-elements/front-matter/
+[functions]: /miscellaneous/
 [Go]: http://golang.org/pkg/html/template/
 [Google Analytics]: https://google-analytics.com/
 [homepage]: /templates/homepage/
@@ -74,14 +74,14 @@ toc: true
 [LiveReload]: /getting-started/usage/
 [organization for your projects]: /getting-started/directory-structure/
 [pagevars]: /variables/page/
-[Permalink]: /content-management/urls/#permalinks
+[Permalink]: /form-elements/urls/#permalinks
 [Powerful theming]: /themes/
-[Pretty URLs]: /content-management/urls/
+[Pretty URLs]: /form-elements/urls/
 [RSS]: /templates/rss/
-[Shortcodes]: /content-management/shortcodes/
+[Shortcodes]: /form-elements/shortcodes/
 [sort content]: /templates/
-[supported formats]: /content-management/formats/
+[supported formats]: /form-elements/formats/
 [Syntax highlighting]: /tools/syntax-highlighting/
-[table of contents]: /content-management/toc/
-[taxonomies]: /content-management/taxonomies/
-[URLs]: /content-management/urls/
+[table of contents]: /form-elements/toc/
+[taxonomies]: /form-elements/taxonomies/
+[URLs]: /form-elements/urls/

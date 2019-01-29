@@ -7,13 +7,13 @@ categories: ["Releases"]
 ---
 
 	
-Hugo `0.49` brings [directory based archetypes](https://gohugo.io/content-management/archetypes/#directory-based-archetypes) and also improves the language handling in `hugo new`. This should simplify working with [page bundles](https://gohugo.io/content-management/page-bundles/). One example of this would be how you now can create a [new showcase](https://gohugo.io/showcase/template/) for the Hugo web site.
+Hugo `0.49` brings [directory based archetypes](https://gohugo.io/form-elements/archetypes/#directory-based-archetypes) and also improves the language handling in `hugo new`. This should simplify working with [page bundles](https://gohugo.io/form-elements/page-bundles/). One example of this would be how you now can create a [new showcase](https://gohugo.io/showcase/template/) for the Hugo web site.
 
 But this release is also about _collections_. Go 1.11 gave us variable overwrite support in Go templates. That made it possible to simplify a lot of template constructs, but it also showed some limitations in Hugo's template functions. So with this release we have:
 
-* added [append](https://gohugo.io/functions/append/) function to append to collections.
-* added [group](https://gohugo.io/functions/group/) to create custom page groups.
-* improved the type support in [slice](https://gohugo.io/functions/slice/).
+* added [append](https://gohugo.io/miscellaneous/append/) function to append to collections.
+* added [group](https://gohugo.io/miscellaneous/group/) to create custom page groups.
+* improved the type support in [slice](https://gohugo.io/miscellaneous/slice/).
 
 This release represents **66 contributions by 9 contributors** to the main Hugo code base.
 [@bep](https://github.com/bep) leads the Hugo development with a significant amount of contributions, but also a big shoutout to [@moorereason](https://github.com/moorereason), [@felicianotech](https://github.com/felicianotech), and [@vdanjean](https://github.com/vdanjean) for their ongoing contributions.

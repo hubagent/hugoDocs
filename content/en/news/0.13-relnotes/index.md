@@ -51,7 +51,7 @@ maintainers and their tremendous contributions this release.
 ### Notable enhancements to existing features
 - The [shortcode](http://gohugo.io/extras/shortcodes/) handling is rewritten for speed and
   better error messages.
-- Several improvements to the [template functions](http://gohugo.io/templates/functions/):
+- Several improvements to the [template functions](http://gohugo.io/templates/miscellaneous/):
   - `where` is now even more powerful and accepts SQL-like syntax with the
     operators `==`, `eq`; `!=`, `<>`, `ne`; `>=`, `ge`; `>`, `gt`; `<=`,
     `le`; `<`, `lt`; `in`, `not in`

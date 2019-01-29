@@ -1,6 +1,6 @@
 ---
-title: "FD: Foundation"
-linktitle: Foundation
+title: "Foundation styles (FS)"
+linktitle: Foundation styles
 description: Hugo boasts blistering speed, robust content management, and a powerful templating language making it a great fit for all kinds of static websites.
 date: 2017-02-01
 publishdate: 2017-02-01
@@ -58,16 +58,16 @@ layout: "single"
 
 
 [Ace]: /templates/alternatives/
-[aliases]: /content-management/urls/#aliases
+[aliases]: /form-elements/urls/#aliases
 [Amber]: https://github.com/eknkc/amber
 [Chroma]: https://github.com/alecthomas/chroma
-[content summaries]: /content-management/summaries/
-[content types]: /content-management/types/
+[content summaries]: /form-elements/summaries/
+[content types]: /form-elements/types/
 [Disqus]: https://disqus.com/
 [Dynamic menu]: /templates/menus/
 [Extremely fast]: https://github.com/bep/hugo-benchmark
-[front matter]: /content-management/front-matter/
-[functions]: /functions/
+[front matter]: /form-elements/front-matter/
+[functions]: /miscellaneous/
 [Go]: http://golang.org/pkg/html/template/
 [Google Analytics]: https://google-analytics.com/
 [homepage]: /templates/homepage/
@@ -76,14 +76,14 @@ layout: "single"
 [LiveReload]: /getting-started/usage/
 [organization for your projects]: /getting-started/directory-structure/
 [pagevars]: /variables/page/
-[Permalink]: /content-management/urls/#permalinks
+[Permalink]: /form-elements/urls/#permalinks
 [Powerful theming]: /themes/
-[Pretty URLs]: /content-management/urls/
+[Pretty URLs]: /form-elements/urls/
 [RSS]: /templates/rss/
-[Shortcodes]: /content-management/shortcodes/
+[Shortcodes]: /form-elements/shortcodes/
 [sort content]: /templates/
-[supported formats]: /content-management/formats/
+[supported formats]: /form-elements/formats/
 [Syntax highlighting]: /tools/syntax-highlighting/
-[table of contents]: /content-management/toc/
-[taxonomies]: /content-management/taxonomies/
-[URLs]: /content-management/urls/
+[table of contents]: /form-elements/toc/
+[taxonomies]: /form-elements/taxonomies/
+[URLs]: /form-elements/urls/

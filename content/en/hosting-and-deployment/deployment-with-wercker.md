@@ -72,7 +72,7 @@ hugo new about.md
 ```
 
 {{% note %}}
-The preceding example for the about page leverages archetypes to scaffold a new content file with preconfigured front matter. [Find out more about Hugo's archetypes](/content-management/archetypes/).
+The preceding example for the about page leverages archetypes to scaffold a new content file with preconfigured front matter. [Find out more about Hugo's archetypes](/form-elements/archetypes/).
 {{% /note %}}
 
 Now you can edit `contents/about.md` in your text editor of choice, but this is not necessary for the purposes of this guide. Running the following command will build your Hugo site into the `public` directory.

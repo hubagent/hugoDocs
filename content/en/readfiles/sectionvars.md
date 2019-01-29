@@ -14,7 +14,7 @@
 : A section's parent section or a page's section.
 
 .Section
-: The [section](/content-management/sections/) this content belongs to. **Note:** For nested sections, this is the first path element in the directory, for example, `/blog/funny/mypost/ => blog`.
+: The [section](/form-elements/sections/) this content belongs to. **Note:** For nested sections, this is the first path element in the directory, for example, `/blog/funny/mypost/ => blog`.
 
 .Sections
-: The [sections](/content-management/sections/) below this content.
+: The [sections](/form-elements/sections/) below this content.

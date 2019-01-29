@@ -19,7 +19,7 @@ aliases: [/faq/]
 
 ## I can't see my content!
 
-Is your markdown file [in draft mode](https://gohugo.io/content-management/front-matter/#front-matter-variables)? When testing, run `hugo server` with the `-D` or `--buildDrafts` [switch](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content). 
+Is your markdown file [in draft mode](https://gohugo.io/form-elements/front-matter/#front-matter-variables)? When testing, run `hugo server` with the `-D` or `--buildDrafts` [switch](https://gohugo.io/getting-started/usage/#draft-future-and-expired-content). 
 
 ## Can I set configuration variables via OS environment?
 
@@ -27,7 +27,7 @@ Yes you can! See [Configure with Environment Variables](/getting-started/configu
 
 ## How do I schedule posts?
 
-1. Set `publishDate` in the page [Front Matter](/content-management/front-matter/) to a date in the future.
+1. Set `publishDate` in the page [Front Matter](/form-elements/front-matter/) to a date in the future.
 2. Build and publish at intervals.
 
 How to automate the "publish at intervals" part depends on your situation:

@@ -49,4 +49,4 @@ The `.File` object contains the following fields:
 .File.Dir
 : given the path `content/posts/dir1/dir2/`, the relative directory path of the content file will be returned (e.g., `posts/dir1/dir2/`)
 
-[Multilingual]: /content-management/multilingual/
+[Multilingual]: /form-elements/multilingual/

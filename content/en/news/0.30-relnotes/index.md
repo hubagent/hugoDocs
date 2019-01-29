@@ -31,7 +31,7 @@ Hugo now has:
 ## Notes
 
 * Running `hugo server` will now run with the new "Fast Render Mode" default on. To turn it off, run `hugo server --disableFastRender` or set `disableFastRender=true` in your site config.
-* There have been several fixes and enhancements in the Chroma highlighter. One is that it now creates Pygments compatible CSS classes, which means that you may want to re-generate the stylesheet. See the [Syntax Highlighting Doc](https://gohugo.io/content-management/syntax-highlighting/).
+* There have been several fixes and enhancements in the Chroma highlighter. One is that it now creates Pygments compatible CSS classes, which means that you may want to re-generate the stylesheet. See the [Syntax Highlighting Doc](https://gohugo.io/form-elements/syntax-highlighting/).
 
 ## Enhancements
 
